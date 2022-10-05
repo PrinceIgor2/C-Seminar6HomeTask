@@ -4,9 +4,9 @@
 
 
 Console.Write("Введите количество чисел: ");
-int M = int.Parse(Console.ReadLine());//Преобразует строковое представление числа в 32-битовое целое число //
+int amountOfNumbers = int.Parse(Console.ReadLine());//Преобразует строковое представление числа в 32-битовое целое число //
 int count = 0;
-for (int i = 0; i < M; i++)
+for (int i = 0; i < amountOfNumbers; i++)
 {
     Console.Write($"Введите число {i + 1}: ");
     int userNumber = int.Parse(Console.ReadLine());
